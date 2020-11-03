@@ -11,7 +11,7 @@ Here is our GitHub:
 
 ## GitHub page
 
-The project can be found on the following link : [Abderzorai.github.io/frontend-ALlezCine](Abderzorai.github.io/frontend-AllezCine).
+The project can be found on the following link : [Abderzorai.github.io/frontend-AllezCine](Abderzorai.github.io/frontend-AllezCine).
 
 ## Objectives
 
