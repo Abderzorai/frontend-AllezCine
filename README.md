@@ -9,6 +9,10 @@ Here is our GitHub:
 [Abderzorai](https://github.com/Abderzorai)
 [deschuyteneerj](https://github.com/deschuyteneerj)
 
+## GitHub page
+
+The project can be found on the following link : [Abderzorai.github.io/frontend-ALlezCine](Abderzorai.github.io/frontend-ALlezCine).
+
 ## Objectives
 
     - Reproduce a one pager website with an already chosen design.
