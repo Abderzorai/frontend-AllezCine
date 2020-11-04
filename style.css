@@ -139,21 +139,10 @@ nav.navbar{
 
 .carousel-indicators{
     margin-bottom: 7rem;
-
-}
-
-.carousel-indicators li{
-    background-color: #fff;
 }
 
 .carousel-indicators .active{
     background-color: #FE4240;
-}
-
-.carousel-item .btn{
-    background-color: #FE4240;
-    color: #fff;
-    margin-top: 0.8rem;
 }
 
     /* RED LINE NAV */
