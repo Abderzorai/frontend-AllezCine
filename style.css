@@ -40,14 +40,6 @@ nav.navbar{
 	z-index: 6;
 }
 
-.navbar-toggler{
-	background-color: #fff;
-}
-
-.navbar-toggler-icon{
-	color: #000 !important;
-}
-
 .homeContact{
 	padding: 0.6rem 0.7rem !important;
 }
@@ -58,10 +50,6 @@ nav.navbar{
 	cursor: pointer;
 }
 
-.navbar .hover{
-	font-weight: bold;
-}
-
 .navbar .hover a{
 	background-color: rgba(255,255,255, 0.5);
 	padding: 0.5rem 0.8rem !important;
@@ -70,11 +58,6 @@ nav.navbar{
 .navbar .hover a:hover{
 	background-color: #FE4240;
 	color: #fff !important;
-}
-
-.navbar .show{
-	position: static;
-	display: block;
 }
 
 	/*BTN: Genre*/
