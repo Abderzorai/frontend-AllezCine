@@ -1,0 +1,185 @@
+/*HEADER*/
+
+    /*TITRES*/
+
+.jumbotron h1{
+    font-size: 3rem;
+}
+
+.jumbotron h2{
+    font-family: 'Muli', sans-serif;
+    font-size : 2.5rem;
+    margin: 1.3rem 2rem;
+}
+
+.jumbotron .lead{
+    color :rgba(255,255,255, 0.6);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+    /*TEXT: Uppercase*/
+
+.jumbotron{
+    text-transform: uppercase;
+}
+
+.jumbotron .dropdown-menu{
+    text-transform: capitalize;
+}
+
+.jumbotron #btnGroupDrop1{
+    text-transform: uppercase;
+}
+
+    /*NAVBAR*/
+
+nav.navbar{
+	width: 100%;
+	position: absolute;
+	z-index: 6;
+}
+
+.navbar-toggler{
+	background-color: #fff;
+}
+
+.navbar-toggler-icon{
+	color: #000 !important;
+}
+
+.homeContact{
+	padding: 0.6rem 0.7rem !important;
+}
+
+.navbar .nav-item{
+	font-size: 0.7rem;
+	margin: 2px;
+	cursor: pointer;
+}
+
+.navbar .hover{
+	font-weight: bold;
+}
+
+.navbar .hover a{
+	background-color: rgba(255,255,255, 0.5);
+	padding: 0.5rem 0.8rem !important;
+}
+
+.navbar .hover a:hover{
+	background-color: #FE4240;
+	color: #fff !important;
+}
+
+.navbar .show{
+	position: static;
+	display: block;
+}
+
+	/*BTN: Genre*/
+
+#btnGroupDrop1{
+    background-color: #FE4240;
+    color: #fff !important;
+    padding: 0.5rem !important;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#btnGroupDrop1:hover{
+    background-color: #FE4240;
+    color: #fff !important;
+}
+    
+    /*INPUT SEARCHBAR*/
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 200px;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+    caret-color:red;
+}
+
+.searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+}
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+}
+
+    /*CAROUSEL*/
+
+.jumbotron img{
+    filter: brightness(0.30);
+    height: 80vh !important;
+}
+
+.carousel-caption{
+    margin-bottom: 9rem;
+}
+
+.carousel-caption a{
+    font-size: 0.7rem;
+    background-color: #fe4240;
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-indicators{
+    margin-bottom: 7rem;
+
+}
+
+.carousel-indicators li{
+    background-color: #fff;
+}
+
+.carousel-indicators .active{
+    background-color: #FE4240;
+}
+
+.carousel-item .btn{
+    background-color: #FE4240;
+    color: #fff;
+    margin-top: 0.8rem;
+}
+
+    /* RED LINE NAV */
+
+.login-register {
+    background-color: black;
+    margin: 5px 2.5px 5px 2.5px;
+}
+
+.redLine {
+    background-color: #fa4441;
+}
