@@ -68,7 +68,7 @@ nav.navbar{
 	color: #fff !important;
 }
 
-	/*BTN: Genre*/
+    /*BTN: Genre*/
 
 #btnGroupDrop1{
     background-color: #FA4441;
@@ -129,7 +129,6 @@ nav.navbar{
 }
 
     /*CAROUSEL*/
-
 .jumbotron img{
     filter: brightness(0.30);
     height: 80vh !important;
@@ -165,7 +164,7 @@ nav.navbar{
     background-color: #FA4441;
 }
 
-/*BTN PLUS/MOINS FILM*/
+/*BUTTON MORE FILM*/
 
 .btnmore {
     border: none;
