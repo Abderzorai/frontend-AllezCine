@@ -79,7 +79,7 @@ console.log(element);
       }
       document.querySelector('.status').innerHTML = "Sending...";
       var information = document.getElementById("info");
-      information.innerHTML= " Your name is " + name + " /n Your subject is " + subject + " /n Your Email is  " + email + " /N Your message is " + message  ;
+      information.innerHTML= " Your name is : " + name + " <br> Your subject is : " + subject + " <br> Your Email is : " + email + " <br> Your message is :" + message  ;
     }
    
   // Get the modal
