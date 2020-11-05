@@ -2,7 +2,7 @@ var callBackGetSucces = function(data) {
 console.log("donnees api", data)
 //"le film "+ data.title);
 var element = document.getElementById("appel film");
-element.innerHTML= "Le Film = " + data.title + src=data.backdrop_path;
+element.innerHTML= "Le Film = " + data.title + data.backdrop_path;
 }
 
 
@@ -22,4 +22,66 @@ function buttonClickGET() {
     {
 
     });
+}
+
+
+
+
+
+function validateForm() {
+    var name =  document.getElementById('name').value;
+    if (name == "") {
+        document.querySelector('.status').innerHTML = "Name cannot be empty";
+        return false;
+    }
+    var email =  document.getElementById('email').value;
+    if (email == "") {
+        document.querySelector('.status').innerHTML = "Email cannot be empty";
+        return false;
+    } else {
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if(!re.test(email)){
+            document.querySelector('.status').innerHTML = "Email format invalid";
+            return false;
+        }
+    }
+    var subject =  document.getElementById('subject').value;
+    if (subject == "") {
+        document.querySelector('.status').innerHTML = "Subject cannot be empty";
+        return false;
+    }
+    var message =  document.getElementById('message').value;
+    if (message == "") {
+        document.querySelector('.status').innerHTML = "Message cannot be empty";
+        return false;
+    }
+    document.querySelector('.status').innerHTML = "Sending...";
+    const info= document.getElementById('info');
+    info.innerHTML= message;
+  }
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
