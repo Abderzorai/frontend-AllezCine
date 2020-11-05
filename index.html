@@ -45,17 +45,17 @@
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                                     <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Comédie</a>
+                                    <a class="dropdown-item" href="#">Comedy</a>
                                     <a class="dropdown-item" href="#">Thriller</a>
                                     <a class="dropdown-item" href="#">Scifi</a>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item hover">
-                            <a class="nav-link text-dark" href="#">Movies</a>
+                            <a class="nav-link text-dark" href="#">Last</a>
                         </li>
                         <li class="nav-item hover">
-                            <a class="nav-link text-dark" href="#">Series</a>
+                            <a class="nav-link text-dark" href="#">Movies</a>
                         </li>
                         <li class="nav-item hover">
                             <a class="nav-link text-dark" href="#">Shop</a>
@@ -78,10 +78,6 @@
             <!-- End : NAVBAR -->
             <!-- CAROUSEL -->
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
-
-
-
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -131,11 +127,28 @@
         </div>
     </header>
     <main>
-        <section id="reseauxSociaux"></section>
+        <section id="reseauxSociaux">
+            <div class="RSS" id="twitter">
+                <a href="http://twitter.com/" target="_blank"><span>Twitter</span><img src="assets/img/twitter.svg"
+                        alt="Twitter"></a>
+            </div>
+            <div class="RSS" id="facebook">
+                <a href="http://facebook.com/" target="_blank"><span>Facebook</span><img src="assets/img/facebook.svg"
+                        alt="Facebook"></a>
+            </div>
+            <div class="RSS" id="github">
+                <a href="http://github.com/" target="_blank"><span>Github</span><img src="assets/img/github.svg"
+                        alt="Github"></a>
+            </div>
+            <div class="RSS" id="google">
+                <a href="https://plus.google.com/discover" target="_blank"><span>Google+</span><img
+                        src="assets/img/google.svg" alt="Google"></a>
+            </div>
+        </section>
+        <!-- MOVIES LIST-->
         <section id="movies">
-            <!-- MOVIES LIST-->
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center border">
                     <div class="col-lg-2 m-1">
                         <img src="#" alt="">
                         <p class="title"></p>
@@ -190,11 +203,11 @@
                 <div class="row" id="button-parent">
                     <button value="1" type="button" class="btn_section">All</button>
                     <button value="2" type="button" class="btn_section">Thriller</button>
-                    <button value="3" type="button" class="btn_section">Policiers</button>
-                    <button value="4" type="button" class="btn_section">Comedie</button>
+                    <button value="3" type="button" class="btn_section">Police</button>
+                    <button value="4" type="button" class="btn_section">Comedy</button>
                     <button value="5" type="button" class="btn_section">Scifi</button>
-                    <button value="6" type="button" class="btn_section">Dramatique</button>
-                    <button value="7" type="button" class="btn_section">Aventure</button>
+                    <button value="6" type="button" class="btn_section">Drama</button>
+                    <button value="7" type="button" class="btn_section">Adventure</button>
                     <button value="8" type="button" class="btn_section"></button>
                 </div>
                 <!-- END BUTTONS GENRE-->
@@ -302,7 +315,7 @@
                 <!-- END MOVIE LIST-->
                 <!-- BUTTON -->
                 <div class="row">
-                    <button id="btnplusfilm" class="btnmore">Plus de Films</button>
+                    <button id="btnmorefilm" class="btnmore">Plus de Films</button>
                 </div>
                 <!-- END BUTTON -->
             </div>
@@ -322,7 +335,7 @@
                                 <p class="title"></p>
                                 <div class="row">
                                     <p class="col-lg-6 year"></p>
-                                    <p class="col-lg-6 genre"></p>
+                                    <p class="col-lg-6 price"></p>
                                 </div>
                             </div>
                             <div class="col-lg-3">
@@ -330,7 +343,7 @@
                                 <p class="title"></p>
                                 <div class="row">
                                     <p class="col-lg-6 year"></p>
-                                    <p class="col-lg-6 genre"></p>
+                                    <p class="col-lg-6 price"></p>
                                 </div>
                             </div>
                             <div class="col-lg-3">
@@ -338,7 +351,7 @@
                                 <p class="title"></p>
                                 <div class="row">
                                     <p class="col-lg-6 year"></p>
-                                    <p class="col-lg-6 genre"></p>
+                                    <p class="col-lg-6 price"></p>
                                 </div>
                             </div>
                             <div class="col-lg-3">
@@ -346,7 +359,7 @@
                                 <p class="title"></p>
                                 <div class="row">
                                     <p class="col-lg-6 year"></p>
-                                    <p class="col-lg-6 genre"></p>
+                                    <p class="col-lg-6 price"></p>
                                 </div>
                             </div>
                         </div>
@@ -356,7 +369,7 @@
                                 <p class="title"></p>
                                 <div class="row">
                                     <p class="col-lg-6 year"></p>
-                                    <p class="col-lg-6 genre"></p>
+                                    <p class="col-lg-6 price"></p>
                                 </div>
                             </div>
                             <div class="col-lg-3">
@@ -364,7 +377,7 @@
                                 <p class="title"></p>
                                 <div class="row">
                                     <p class="col-lg-6 year"></p>
-                                    <p class="col-lg-6 genre"></p>
+                                    <p class="col-lg-6 price"></p>
                                 </div>
                             </div>
                             <div class="col-lg-3">
@@ -372,7 +385,7 @@
                                 <p class="title"></p>
                                 <div class="row">
                                     <p class="col-lg-6 year"></p>
-                                    <p class="col-lg-6 genre"></p>
+                                    <p class="col-lg-6 price"></p>
                                 </div>
                             </div>
                             <div class="col-lg-3">
@@ -380,7 +393,7 @@
                                 <p class="title"></p>
                                 <div class="row">
                                     <p class="col-lg-6 year"></p>
-                                    <p class="col-lg-6 genre"></p>
+                                    <p class="col-lg-6 price"></p>
                                 </div>
                             </div>
                         </div>
