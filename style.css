@@ -36,7 +36,7 @@ h2{
     text-transform: capitalize;
 }
 
-.jumbotron #btnGroupDrop1{
+.jumbotron #buttonDropdown{
     text-transform: uppercase;
 }
 
@@ -48,8 +48,12 @@ nav.navbar{
 	z-index: 6;
 }
 
+.navbar-toggler{
+	background-color:rgba(255,255,255, 0.6);
+}
+
 .homeContact{
-	padding: 0.6rem 0.7rem !important;
+	padding: 0.6rem 0.7rem;
 }
 
 .navbar .nav-item{
@@ -60,7 +64,7 @@ nav.navbar{
 
 .navbar .hover a{
 	background-color: rgba(255,255,255, 0.5);
-	padding: 0.5rem 0.8rem !important;
+	padding: 0.5rem 0.8rem ;
 }
 
 .navbar .hover a:hover{
@@ -68,9 +72,9 @@ nav.navbar{
 	color: #fff !important;
 }
 
-    /*BTN: Genre*/
+    /*BUTTON GENRE*/
 
-#btnGroupDrop1{
+#buttonDropdown{
     background-color: #FA4441;
     color: #fff !important;
     padding: 0.5rem !important;
@@ -79,7 +83,7 @@ nav.navbar{
     cursor: pointer;
 }
 
-#btnGroupDrop1:hover{
+#buttonDropdown:hover{
     background-color: #FE4240;
     color: #fff !important;
 }
@@ -172,14 +176,14 @@ nav.navbar{
     z-index: 8;
 }
 
-.RSS{
+.socials{
     width: 150px;
     height: 40px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.RSS span{
+.socials span{
     display: inline-block;
     margin-top: 9px !important;
 }
@@ -227,7 +231,7 @@ nav.navbar{
     margin-left: 0px;
 }
 
-.RSS img{
+.socials img{
 	width: 30px;
 	margin-top: -3px;
 	margin-left:20px;
@@ -235,7 +239,7 @@ nav.navbar{
 	border-radius: 100%;
 }
 
-.RSS a{
+.socials a{
 	text-decoration: none;
 	color: white;
 	margin-left: 47px;
@@ -256,12 +260,12 @@ nav.navbar{
 	height: 34px;
 	margin: 15px 0px 0px 2px;
 	border-style: none;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .btn_section:hover{
 	background-color: #FA4441;
-	color: white;
+    color: white;
 }
 
 /*BUTTON MORE FILM*/
@@ -271,16 +275,17 @@ nav.navbar{
     background-color: #FA4441;
     color:white;
     margin: 0 auto;
-   cursor: pointer;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .btnmore:hover{
    background-color: #0D0D0D;
 }
 
-.generale{
-   background-color: #0D0D0D;
-   color: white;
+.backgroundBlack{
+    background-color: black;
 }
 
 /* CONTACT FORM */
@@ -292,6 +297,7 @@ nav.navbar{
 .btnSend{
     background-color: #FA4441;
     color: white;
+    font-weight: bold;
 }
 
 /* The Modal (background) */
@@ -339,14 +345,14 @@ footer {
     margin: -100px 0 0 0;
 }
 
-.flex1 {
+.flexible {
     padding: 0 -50px;
     margin: 0;
     display: flex;
     justify-content: center;
 }
 
-.colonne1 {
+.column {
     text-align: center !important;
     width: 100%;
     padding: 10px;
@@ -434,7 +440,7 @@ footer {
 .footerLogo {
     margin-bottom: 8px;
     font-family: arial;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -461,10 +467,10 @@ footer {
     color: #a4a4a4;
 }
 
-.width-Lastest-Movies{
-    width: 25vw !important;
-}
-
 .fab, .fa a {
     color: #a4a4a4;
+}
+
+.center{
+    text-align:center;
 }
