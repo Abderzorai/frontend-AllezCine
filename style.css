@@ -1,6 +1,6 @@
 /*HEADER*/
 
-    /*TitleS*/
+    /*TITLES*/
 h2{
     text-transform: uppercase;
 }
@@ -73,7 +73,6 @@ nav.navbar{
 }
 
     /*BUTTON GENRE*/
-
 #buttonDropdown{
     background-color: #FA4441;
     color: #fff !important;
@@ -89,7 +88,6 @@ nav.navbar{
 }
     
     /*INPUT SEARCHBAR*/
-
 .searchbar{
     margin-bottom: auto;
     margin-top: auto;
@@ -168,8 +166,7 @@ nav.navbar{
     background-color: #FA4441;
 }
 
-/*BOUTON RESEAUX SOCIAUX*/
-
+/*BUTTONS SOCIAL NETWORKS*/
 #reseauxSociaux{
     position: fixed;
     top: 300px;
@@ -254,7 +251,6 @@ nav.navbar{
 }
 
 /* BUTTON SECTION MOVIES */
-
 .btn_section{
 	width: 95px;
 	height: 34px;
@@ -269,7 +265,6 @@ nav.navbar{
 }
 
 /*BUTTON MORE FILM*/
-
 .btnmore {
     border: none;
     background-color: #FA4441;
@@ -282,6 +277,16 @@ nav.navbar{
 
 .btnmore:hover{
    background-color: #0D0D0D;
+}
+
+/* MOVIE CARDS */
+.title, .year, .genre, .price{
+    text-align:center;
+}
+/* SHOP MOVIES */
+.backgroundGrey{
+
+    background-color: #eeedf2;
 }
 
 .backgroundBlack{
@@ -339,7 +344,6 @@ nav.navbar{
 }
 
 /*FOOTER*/
-
 footer {
     background-color: #0D0D0D;
     margin: -100px 0 0 0;
