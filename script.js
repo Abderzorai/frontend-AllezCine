@@ -40,35 +40,37 @@ function topFunction() {
 var callBackGetSucces = function(data) {
   console.log("donnees api", data)
   //"le film "+ data.title);
-  var element = document.getElementById("appel film");
-  element.innerHTML= "Le Film = " + data.title + data.genres + data.release_date;
+  
     var img = document.createElement("img");
-    img.src = "http://image.tmdb.org/t/p/w300"+data.backdrop_path;
+    img.src = "http://image.tmdb.org/t/p/w300"+data.poster_path;
 
     var div = document.getElementById("x");
     div.appendChild(img);
     //block.setAttribute("style", "text-align:center");
-console.log(element);
+    const tittle = document.getElementById("tittle");
+    tittle.innerHTML= data.title;
+    const years = document.getElementById("years");
+    years.innerHTML= data.release_date.substr(0, 4);
   }
   var $j = jQuery.noConflict();
-  
-  function buttonClickGET() {
-      var queryLoc = document.getElementById("queryLoc").value;
-  
-  
-      var url = "https://api.themoviedb.org/3/movie/"+queryLoc+"?api_key=0275c4ff67f79b6f280f14f1326f3b20"
-  
-      $j.get(url,callBackGetSucces).done(function() {
-  
-      })
-      .fail(function() {
-      alert("error");
-      })
-      .always(function()
-      {
-  
-      });
-  }
+
+
+
+  document.addEventListener("DOMContentLoaded", () => {
+    
+    var url = "https://api.themoviedb.org/3/movie/540?api_key=0275c4ff67f79b6f280f14f1326f3b20"
+
+    $j.get(url,callBackGetSucces).done(function() {
+
+    })
+    .fail(function() {
+    alert("error");
+    })
+    .always(function()
+    {
+
+    });
+});
   
   
   
