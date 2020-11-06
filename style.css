@@ -485,7 +485,7 @@ footer {
     text-align:center;
 }
 
-/* BUTON BACK TO TOP */
+/* BUTTON BACK TO TOP */
 #BtnBackToTop {
     display: none;
     position: fixed;
@@ -499,8 +499,4 @@ footer {
     color: white;
     cursor: pointer;
     padding: 15px;
-  }
-  
-  #myBtn:hover {
-    background-color: #555;
   }
