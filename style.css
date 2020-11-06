@@ -3,6 +3,7 @@
     /*TITLES*/
 h2{
     text-transform: uppercase;
+    margin-top: 50px;
 }
 
 .leftBorder {
@@ -280,6 +281,10 @@ nav.navbar{
 }
 
 /* MOVIE CARDS */
+div img{
+    width: 160px;
+}
+
 .title, .year, .genre, .price{
     text-align:center;
 }
