@@ -1,4 +1,3 @@
-
 /**
  * BUTTON BACK TO TOP
  */
@@ -37,19 +36,15 @@ function topFunction() {
 	}
 })();
 
-var callBackGetSucces = function(data) {
+var callBackGetSuccess = function(data) {
   console.log("donnees api", data)
   //"le film "+ data.title);
   
-    var img = document.createElement("img");
+    var img = document.getElementsByClassName("img");
     img.src = "http://image.tmdb.org/t/p/w300"+data.poster_path;
-
-    var div = document.getElementById("x");
-    div.appendChild(img);
-    //block.setAttribute("style", "text-align:center");
-    const tittle = document.getElementById("tittle");
-    tittle.innerHTML= data.title;
-    const years = document.getElementById("years");
+    const title = document.getElementsByClassName("title");
+    title.innerHTML= data.title;
+    const years = document.getElementsByClassName("years");
     years.innerHTML= data.release_date.substr(0, 4);
   }
   var $j = jQuery.noConflict();
@@ -60,7 +55,7 @@ var callBackGetSucces = function(data) {
     
     var url = "https://api.themoviedb.org/3/movie/540?api_key=0275c4ff67f79b6f280f14f1326f3b20"
 
-    $j.get(url,callBackGetSucces).done(function() {
+    $j.get(url,callBackGetSuccess).done(function() {
 
     })
     .fail(function() {
